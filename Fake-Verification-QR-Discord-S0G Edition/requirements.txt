@@ -1,0 +1,7 @@
+nextcord
+# pyptext
+cryptography
+websockets
+colorama
+requests
+urllib3

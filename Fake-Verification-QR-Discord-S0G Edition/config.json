@@ -1,0 +1,13 @@
+{
+    "botToken": "",
+    "logs_channel_id": "",
+
+    "prefix": "!",
+    "command_name": "start",
+
+    "give_role": true,
+    "role_name": "acces",
+
+    "mass_dm": 0,
+    "message": "MESSAGE-HERE"
+}
