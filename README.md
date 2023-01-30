@@ -57,7 +57,7 @@ Launch the setup.bat file. A new file will be created. You will only have to lau
 
 ## Example
 ![verification_example.png](https://cdn.discordapp.com/attachments/826581697436581919/989174080332787712/unknown.png?size=4096)
-
+```
 
 ## Credits
 Many thanks to [RuslanUC](https://github.com/RuslanUC) for [RemoteAuthClient](https://github.com/RuslanUC/RemoteAuthClient) and [TurfuFrogy](https://github.com/TurfuFrogy) for developing the database part of the tool.
