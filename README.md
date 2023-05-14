@@ -1,7 +1,7 @@
 # Note
 This tool was originally made by someone I can't find anymore. Lots of issues weren't being taken care of so I took care of things.
 
-<h1 align="center">[Discord] - Fake Verification Bot With QR CODE (V1.2.1)
+<h1 align="center">[Discord] - Fake Verification Bot With QR CODE
 
 </p>
 <p align="center">
