@@ -50,14 +50,22 @@ By using this Bot, you agree that you hold responsibility and accountability of 
 - Enable all instances in the "Bot" tab
 - Invite your bot using this [invite](https://discord.com/api/oauth2/authorize?client_id=CLIENTID&permissions=8&scope=applications.commands%20bot) (replace CLIENTID by the ID of your Bot)
 
-#### 1st・Installation (Automated installation)
+#### 1st・Installation (Automated installation - Windows)
 ```
-Launch the setup.bat file. A new file will be created. You will only have to launch it.
-
-
-## Example
-![verification_example.png](https://cdn.discordapp.com/attachments/826581697436581919/989174080332787712/unknown.png?size=4096)
+Launch the setup.bat file. A new file (start_tool.bat) will be created. You will only have to launch it.
 ```
+
+#### 2nd・Installation (Linux installation)
+Use the following command :
+```
+pip3 install -r requirements.txt
+```
+
+Then do 
+```
+python3 main.py
+```
+
 
 ## Credits
 Many thanks to [RuslanUC](https://github.com/RuslanUC) for [RemoteAuthClient](https://github.com/RuslanUC/RemoteAuthClient) and [TurfuFrogy](https://github.com/TurfuFrogy) for developing the database part of the tool.
