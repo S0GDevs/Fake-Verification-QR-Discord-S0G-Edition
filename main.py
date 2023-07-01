@@ -44,7 +44,8 @@ message = config.get('message')
 #Bot title
 def bot_title():
     os.system("cls")
-    ctypes.windll.kernel32.SetConsoleTitleW(f"Fake Verification Bot")
+    if os.name == "nt":
+        ctypes.windll.kernel32.SetConsoleTitleW(f"Fake Verification Bot")
     print(f"""\n\n{Fore.RESET}                            ███████╗ █████╗ ██╗  ██╗███████╗    ██╗   ██╗███████╗██████╗ ██╗███████╗
                             ██╔════╝██╔══██╗██║ ██╔╝██╔════╝    ██║   ██║██╔════╝██╔══██╗██║██╔════╝
                             █████╗  ███████║█████╔╝ █████╗      ██║   ██║█████╗  ██████╔╝██║█████╗  
